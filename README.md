@@ -1,50 +1,96 @@
-# Welcome to your Expo app 👋
+# TP – Création d’un premier projet React Native avec Expo :
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## Objectifs du TP
 
-1. Install dependencies
+Installer et configurer un projet React Native avec Expo.
 
-   ```bash
-   npm install
-   ```
+Comprendre la structure d’un projet.
 
-2. Start the app
+Nettoyer le fichier App.js pour créer une interface simple.
 
-   ```bash
-   npx expo start
-   ```
+Créer et utiliser des composants réutilisables (AppHeader, AppFooter).
 
-In the output, you'll find options to open the app in a
+Manipuler les styles avec StyleSheet.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Tester le rendu via l’émulateur ou Expo Go.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Étape 1 — Création du projet :
 
-## Get a fresh project
+npx create-expo-app premier-component-rn
 
-When you're ready, run:
+Puis : 
 
-```bash
-npm run reset-project
-```
+cd premier-component-rn
+npm start 
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+L’application démarre dans Expo.
 
-To learn more about developing your project with Expo, look at the following resources:
+### Étape 2 — Nettoyage du projet :
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+### Étape 3 — Création du dossier components
 
-Join our community of developers creating universal apps.
+-AppHeader.js
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-AppFooter.js
+
+### Étape 4 — Vérification du rendu :
+
+Dans Expo :
+
+Le header doit s’afficher en haut.
+
+Le texte principal doit apparaître au centre.
+
+Le footer doit s’afficher en bas.
+
+Ces validations confirment :
+
+✔ L’utilisation correcte de App.js
+✔ Le fonctionnement des composants
+✔ Le Fast Refresh (mise à jour automatique).
+
+### Étape 5 — Mini-défis (Extension)
+
+Les étudiants peuvent :
+
+ 1. Personnaliser le footer
+
+Afficher l’année dynamique.
+
+Ajouter le nom de l’application.
+
+ 2. Améliorer le header
+
+Ajouter une phrase descriptive.
+
+Changer la couleur / la taille de police.
+
+ 3. Créer un troisième composant
+
+Exemple : MainCard
+Une carte affichant un texte au centre de la page.
+
+### Structure finale du projet
+
+-![466833c9-9a8b-42de-aafc-51368927d20a](https://github.com/user-attachments/assets/4dee1bc9-b798-412a-b081-366e0a90da52)
+
+-![ec3055b1-2e21-4efa-b3f7-af72b6d082b3](https://github.com/user-attachments/assets/078ba918-0ce8-4c42-937c-e744879f426d)
+
+-![73651dd8-7018-4860-aaea-079b1f37abe5](https://github.com/user-attachments/assets/12de3951-cf25-4a94-ba82-d9a8c1150e52)
+
+#### Lancer l'application
+
+npm start
+
+![Capture d’écran_6-12-2025_04131_localhost](https://github.com/user-attachments/assets/e6640241-4c1c-4d6e-b769-705953bf0548)
+
+## Auteurs :
+
+Réalisé par : Ettouyjer yasmine.
+
+Encadré par : Mohammed Lechgar.
+
+Date : Le 06 Decembre 2025.
